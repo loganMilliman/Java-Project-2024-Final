@@ -1,1 +1,3 @@
-public class austronautInfo extends 
+public class austronautInfo extends austronaut{
+  
+}
