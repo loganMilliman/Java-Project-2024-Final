@@ -10,7 +10,7 @@ public class Austronaut{
   private String nextOfKin;
   private String status;
   private double salary;
-  private int weight;
+  private double weight;
    
 
       // No args-constructer for the variables above
@@ -24,7 +24,7 @@ public class Austronaut{
         nextOfKin ="";
         status ="";
         salary = 0;
-        weight =0;
+        weight = 0;
       }
 
         /* This constructor initializes the object with a name, ID, and salary.
@@ -38,7 +38,7 @@ public class Austronaut{
            @param t the status.
            @param s The salary.
            @param w the weight*/
-        public Austronaut(String name, String dateOfBirth, String IDnumb, String address, String email, String phoneNumb, String nextOfKin, String status, double salary, int weight;){
+        public Austronaut(String name, String dateOfBirth, String IDnumb, String address, String email, String phoneNumb, String nextOfKin, String status, double salary, double weight;){
           this.name = name;
           this.dateOfBirth = dateOfBirth;
           this.IDnumb = IDnumb;
@@ -98,7 +98,7 @@ public class Austronaut{
      }
     /* The setWeight method sets the name field.
          @param w the weight. */
-    public void setWeight(int w){
+    public void setWeight(double w){
         weight = w;
      }
 
