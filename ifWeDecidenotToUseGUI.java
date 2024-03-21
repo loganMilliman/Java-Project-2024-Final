@@ -1,5 +1,6 @@
 
-System.out.println("Welcome, Please put the astrnauts info below");
+System.out.println("Welcome, you are able to chose what you want to do edit the info about the astronaut or launch ,but ");
+System.out.println("please notr that it is recimendeed to give all the information you can beffore launching");
 // Use a do-while loop to display the options menu as follows until the user selects 3:
            do{
             // face of it and the potions
@@ -15,7 +16,8 @@ System.out.println("Welcome, Please put the astrnauts info below");
                 case 1:
                 // go to another switch statement that gives us the ability to edit th astronuts information
                 do{
-                System.out.printlnplease chose 
+                System.out.println("Please chose what you would like to edit.");
+                      System.out.println("[]");
                 choicePt2 = kbd.nextInt();
                 switch(choicePt2){
                   case 1:
