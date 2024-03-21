@@ -17,21 +17,23 @@ System.out.println("please notr that it is recimendeed to give all the informati
                 // go to another switch statement that gives us the ability to edit th astronuts information
                 do{
                 System.out.println("Please chose what you would like to edit.");
-                      System.out.println("[1]");
-                      System.out.println("[2]");
-                      System.out.println("[3]");
-                      System.out.println("[4]");
-                      System.out.println("[5]");
-                      System.out.println("[6]");
-                      System.out.println("[7]");
-                      System.out.println("[8]");
-                      System.out.println("[9]");
-                      System.out.println("[10]");
+                      System.out.println("[1] Name");
+                      System.out.println("[2] Date Of Birth");
+                      System.out.println("[3] ID number");
+                      System.out.println("[4] Address");
+                      System.out.println("[5] Email");
+                      System.out.println("[6] Phone Number");
+                      System.out.println("[7] Next of kin");
+                      System.out.println("[8] Status");
+                      System.out.println("[9] Salary");
+                      System.out.println("[10] Weight");
+                      // exit Astrnaut info
+                      System.out.println("[11] Exit");
                 choicePt2 = kbd.nextInt();
                 switch(choicePt2){
                   case 1:
                 }
-                  while(choicePt2 != )
+                  while(choicePt2 != 11)
             break;
                 
                 case 2:
