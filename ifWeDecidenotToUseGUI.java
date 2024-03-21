@@ -5,7 +5,7 @@ System.out.println("please notr that it is recimendeed to give all the informati
            do{
             // face of it and the potions
             System.out.println("Menu:");
-            System.out.println("[1]Austronaut Info");
+            System.out.println("[1] Austronaut Info");
             System.out.println("[2] Its time to launch");
             // Enter your choice:
             System.out.print("Enter your choice: ");
@@ -17,7 +17,16 @@ System.out.println("please notr that it is recimendeed to give all the informati
                 // go to another switch statement that gives us the ability to edit th astronuts information
                 do{
                 System.out.println("Please chose what you would like to edit.");
-                      System.out.println("[]");
+                      System.out.println("[1]");
+                      System.out.println("[2]");
+                      System.out.println("[3]");
+                      System.out.println("[4]");
+                      System.out.println("[5]");
+                      System.out.println("[6]");
+                      System.out.println("[7]");
+                      System.out.println("[8]");
+                      System.out.println("[9]");
+                      System.out.println("[10]");
                 choicePt2 = kbd.nextInt();
                 switch(choicePt2){
                   case 1:
