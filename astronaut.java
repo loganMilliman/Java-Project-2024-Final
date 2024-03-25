@@ -1,4 +1,4 @@
-public class astronaut{
+public class Austronaut{
 
   //variables
   private String name;
@@ -14,7 +14,7 @@ public class astronaut{
    
 
       // No args-constructer for the variables above
-      public astronaut(){
+      public Austronaut(){
         name ="";
         dateOfBirth ="";
         IDnumb ="";
@@ -38,7 +38,7 @@ public class astronaut{
            @param t the status.
            @param s The salary.
            @param w the weight*/
-        public astronaut(String name, String dateOfBirth, String IDnumb, String address, String email, String phoneNumb, String nextOfKin, String status, double salary, double weight) {
+        public Austronaut(String name, String dateOfBirth, String IDnumb, String address, String email, String phoneNumb, String nextOfKin, String status, double salary, double weight){
           this.name = name;
           this.dateOfBirth = dateOfBirth;
           this.IDnumb = IDnumb;
@@ -49,7 +49,7 @@ public class astronaut{
           this.status = status;
           this.salary = salary;
           this.weight = weight;
-         }
+        }
   
     /* The setName method sets the name field.
          @param n The name to use. */
