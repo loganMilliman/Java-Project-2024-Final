@@ -1,4 +1,4 @@
-public class Austronaut{
+public class astronaut{
 
   //variables
   private String name;
@@ -14,7 +14,7 @@ public class Austronaut{
    
 
       // No args-constructer for the variables above
-      public Austronaut(){
+      public astronaut(){
         name ="";
         dateOfBirth ="";
         IDnumb ="";
@@ -38,7 +38,7 @@ public class Austronaut{
            @param t the status.
            @param s The salary.
            @param w the weight*/
-        public Austronaut(String name, String dateOfBirth, String IDnumb, String address, String email, String phoneNumb, String nextOfKin, String status, double salary, double weight;){
+        public astronaut(String name, String dateOfBirth, String IDnumb, String address, String email, String phoneNumb, String nextOfKin, String status, double salary, double weight) {
           this.name = name;
           this.dateOfBirth = dateOfBirth;
           this.IDnumb = IDnumb;
@@ -49,7 +49,7 @@ public class Austronaut{
           this.status = status;
           this.salary = salary;
           this.weight = weight;
-        }
+         }
   
     /* The setName method sets the name field.
          @param n The name to use. */
@@ -84,7 +84,7 @@ public class Austronaut{
     /* The setNextOfKin method sets the name field.
          @param k the nextOfKin. */
      public void setNextOfKin(String k){
-        nextOfKin = k:
+        nextOfKin = k;
      }
     /* The setStatus method sets the name field.
          @param t the status. */
@@ -104,52 +104,52 @@ public class Austronaut{
 
     /* The getName method returns the name field.
          @return The name. */
-    public void getName(){
+    public String getName(){
         return name;
      }
    /* The getDateOfBirth method returns the name field.
          @return The dateOfBirth. */
-     public void getDateOfBirth(){
+     public String getDateOfBirth(){
         return dateOfBirth;
      }
     /* The getIDnumb method returns the name field.
          @return The IDnumb. */
-     public void getIDnumb(){
+     public String getIDnumb(){
         return IDnumb;
      }
     /* The getAddress method returns the name field.
          @return The address. */
-    public void getAddress(){
+    public String getAddress(){
         return address;
      }
     /* The getEmail method returns the name field.
          @return The email. */
-     public void getEmail(){
+     public String getEmail(){
         return email;
      }
     /* The getPhoneNumb method returns the name field.
          @return The phoneNumb. */
-     public void getPhoneNumb(){
+     public String getPhoneNumb(){
         return phoneNumb;
      }
     /* The getNextOfKin method returns the name field.
          @return The nextOfKin. */
-     public void getNextOfKin(){
+     public String getNextOfKin(){
         return nextOfKin;
      }
     /* The getStatus method returns the name field.
          @return The status. */
-     public void getStatus(){
+     public String getStatus(){
         return status;
      }
     /* The getSalary method returns the name field.
          @return The salary. */
-     public void getSalary(){
+     public double getSalary(){
         return salary;
      }
     /* The getWeight method returns the name field.
          @return The weight. */
-    public void getWeight(){
+    public double getWeight(){
         return weight;
      }
 }
