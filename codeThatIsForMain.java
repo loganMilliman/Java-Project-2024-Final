@@ -9,7 +9,9 @@ public class Main
   public static void main (String[]args)
   {
 	//should run signin class at this point
+
 	  
+	//after this should be selection screen 
 	  System.out.println
 	  ("Welcome! You can choose to manage astronaut information or launch.");
 	int choice;
@@ -38,6 +40,7 @@ public class Main
 			    deleteAstronaut ();
 			break;
 
+		//launch stuff
 		  case 4:
 			    System.out.println ("Launching...");
 			break;
