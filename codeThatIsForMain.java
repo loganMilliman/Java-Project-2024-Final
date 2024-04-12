@@ -8,7 +8,9 @@ public class Main
 
   public static void main (String[]args)
   {
-	System.out.println
+	//should run signin class at this point
+	  
+	  System.out.println
 	  ("Welcome! You can choose to manage astronaut information or launch.");
 	int choice;
 
