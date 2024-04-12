@@ -6,7 +6,7 @@ public class main {
         //should run signin class at this point
 
         
-        //after this should be selection screen with GUI
+        //after this should be selection screen 
         //then launch option
 
     }
