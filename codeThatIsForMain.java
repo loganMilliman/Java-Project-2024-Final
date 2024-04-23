@@ -1,12 +1,12 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main
+public class codeThatIsForMain
 {
   static Scanner kbd = new Scanner (System.in);
   static ArrayList < Astronaut > astronauts = new ArrayList <> ();
 
-  public static void main (String[]args)
+  public static void main (String args[])
   {
 	//should run signin class at this point
 

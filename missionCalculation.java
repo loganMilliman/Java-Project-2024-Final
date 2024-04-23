@@ -1,3 +1,3 @@
-public class misisonCalculation{
+public class missionCalculation{
   
 }

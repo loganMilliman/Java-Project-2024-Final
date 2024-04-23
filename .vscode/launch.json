@@ -10,15 +10,5 @@
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "LoginGUI",
-            "request": "launch",
-            "mainClass": "LoginGUI",
-            "projectName": "Java-Project-2024-Final_dca0a026",
-            //stops JavaFX runtime error from occuring
-            "vmArgs": "--module-path C:\\Users\\999977560.CYBER216\\Documents\\GitHub\\Java-Project-2024-Final\\lib --add-modules javafx.controls,javafx.fxml"
         }
-    ]
 }
