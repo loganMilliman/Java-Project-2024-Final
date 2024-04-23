@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main
+public class codeThatIsForMain
 {
   static Scanner kbd = new Scanner (System.in);
   static ArrayList < Astronaut > astronauts = new ArrayList <> ();
