@@ -4,11 +4,32 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "missionCalculation",
+            "request": "launch",
+            "mainClass": "missionCalculation",
+            "projectName": "Java-Project-2024-Final_c36fa434"
+        },
+        {
+            "type": "java",
+            "name": "password",
+            "request": "launch",
+            "mainClass": "password",
+            "projectName": "Java-Project-2024-Final_c36fa434"
+        },
         {
             "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "LoginGUI",
+            "request": "launch",
+            "mainClass": "LoginGUI",
+            "projectName": "Java-Project-2024-Final_dca0a026",
+            "vmArgs": "--module-path C:\\Users\\999977560.CYBER216\\Documents\\GitHub\\Java-Project-2024-Final\\lib --add-modules javafx.controls,javafx.fxml"
         }
 }
