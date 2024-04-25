@@ -1,7 +1,7 @@
-public class missionInventory {
+public class Rocket {
     private int rocketFuel; // Current amount of rocket fuel in pounds
 
-    public missionInventory(int initialRocketFuel) {
+    public Rocket(int initialRocketFuel) {
         this.rocketFuel = initialRocketFuel;
     }
 

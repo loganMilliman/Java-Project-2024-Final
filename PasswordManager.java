@@ -2,8 +2,9 @@ import java.util.Scanner;
 
 public class PasswordManager {
     private String Userpassword; private String Username;
-    private int input;
+    private int input; private boolean lock = false;
     private Scanner kbd;
+    //private static cryptography encrypter = new cryptography();
 
     //class compiler
     public PasswordManager(Scanner kbd) {
@@ -15,66 +16,61 @@ public class PasswordManager {
     * select options: 
     * login to Program
     * create new a password
-    *should get you stuck if you dont put in the right password
+    * I want this to lock the user in if they cant get past
     */
     public void singin() {
-        System.out.print("\nWelcome to the Rocket Control Station ");
         do {
             System.out.print("\nPlease sign in first\n\n1. Sign in\n2. Create account\n3. Change password\n");
             
             //user options
             input = kbd.nextInt();
+            kbd.nextLine();
             switch(input) {
                 
-                //signing in portion
                 case 1:
                 System.out.println("Please enter Username");
-                Username = kbd.nextLine(); kbd.nextLine();
+                Username = kbd.nextLine();
 
                 System.out.println("Please enter Password");
-                Userpassword = kbd.nextLine(); kbd.nextLine();
+                Userpassword = kbd.nextLine();
+
+                //verifies if password is correct
+                lock = encrypter.verify(Userpassword, Username);
 
                     //wrong and correct password code
                     //I dont like realy how this works, since it esentially does the calculation twice now but whatever :/
-
-                    /* if (!(getuserpasword(Username).equals(Userpassword) || getadminpassword().equals(Userpassword)) ) 
-                        System.out.println("Wrong Password or Username");
-
-                        else if (getadminpassword().equals(Userpassword)
-                        System.out.println("Welcome admin");
+                    if (lock) 
+                        System.out.print("\nWelcome "+Username); 
 
                         else
-                        System.out.print("\nWelcome "+Username); */
+                        
+                        System.out.println("Wrong Username or Password");
                 break;
 
                 //account creater case
                 case 2:
-
+                PasswordMaker(Username, Userpassword);
                 break;
 
                 //pasword changer case        
                 case 3: 
-
+                PasswordChanger(Username, Userpassword);
                 break;
             }
         }
-        while (true);
-       //need to work on decryption before this will work
-       //while (getuserpasword(Username).equals(Userpassword) || getadminpassword().equals(Userpassword));
+        while (!lock);
     }
 
     /*
      * used to make a password
      */
-    @SuppressWarnings("unused")
-    private static void PasswordMaker() {
-
+    private static void PasswordMaker(String name, String pass) {
+        encrypter.addPassword(name, pass);
     }
     /*
      * used to change acount passwords
      */
-    @SuppressWarnings("unused")
-    private static void PasswordChanger() {
-
+    private static void PasswordChanger(String name, String pass) {
+        encrypter.changePassword(name, pass);
     }
 }

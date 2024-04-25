@@ -1,3 +1,3 @@
-class verification {
+public class verification {
     // Implement verification process for preventing accidental information deletion
 }
