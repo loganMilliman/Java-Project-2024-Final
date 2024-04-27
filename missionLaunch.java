@@ -52,4 +52,4 @@ public class missionLaunch {
         System.out.println("Rocket launched!");
     }
 
-    // Other methods for managing the launch process, such as aborting, monitoring, etc.
+}
